@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "AyED2",
+    "patterns": [
+        {
+            "name": "text.whitespace.ayed2",
+            "match": "\\s+"
+        },
+        {
+            "name": "comment.line.double-slash.ayed2",
+            "match": "//.*?$"
+        },
+        {
+            "name": "keyword.ayed2",
+            "match": "\\b(var|if|then|else|fi|while|do|od|alloc|free)\\b"
+        },
+        {
+            "name": "keyword.type.ayed2",
+            "match": "\\b(int|char|bool|real|array|pointer|of)\\b"
+        },
+        {
+            "name": "punctuation.assignment.ayed2",
+            "match": ":="
+        },
+        {
+            "name": "operator.comparison.ayed2",
+            "match": "==|!=|<|<=|>|>="
+        },
+        {
+            "name": "operator.arithmetic.ayed2",
+            "match": "\\+\\+|--|\\+|-|\\*|/|%|!"
+        },
+        {
+            "name": "operator.logical.ayed2",
+            "match": "&&|\\|\\|"
+        },
+        {
+            "name": "constant.language.named.ayed2",
+            "match": "\\b(null|true|false|inf)\\b"
+        },
+        {
+            "name": "string.quoted.char.ayed2",
+            "match": "'[^']'"
+        },
+        {
+            "name": "constant.numeric.float.ayed2",
+            "match": "\\d+\\.\\d+"
+        },
+        {
+            "name": "constant.numeric.integer.ayed2",
+            "match": "\\d+"
+        },
+        {
+            "name": "variable.other.ayed2",
+            "match": "\\b\\w+\\b"
+        },
+        {
+            "name": "punctuation.parenthesis.ayed2",
+            "match": "[()\\[\\];]"
+        }
+    ],	"scopeName": "source.ayed2"
+}

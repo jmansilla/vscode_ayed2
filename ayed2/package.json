@@ -1,0 +1,25 @@
+{
+  "name": "ayed2",
+  "displayName": "ayed2",
+  "description": "Syntax Highlight for AyED2 language",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ayed2",
+      "aliases": ["AyED2", "ayed2"],
+      "extensions": [".ayed2",".ayed"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ayed2",
+      "scopeName": "source.ayed2",
+      "path": "./syntaxes/ayed2.tmLanguage.json"
+    }]
+  }
+}
